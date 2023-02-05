@@ -242,6 +242,10 @@ ul {
   padding: 5px 15px;
 }
 
+.aside .nav li a:hover {
+  font-size: 22px;
+}
+
 .aside .nav li a.active {
   color: var(--skin-color);
 }
@@ -547,6 +551,7 @@ h3.my-profession {
   display: block;
 }
 /* contact */
+
 .contact-title {
   color: var(--skin-color);
   text-align: center;
