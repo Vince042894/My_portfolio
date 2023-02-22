@@ -506,7 +506,7 @@
             <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
             <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES </h4>
             <!-- Contact Form -->
-            <form action="mailto:rvcc042894@gmail.com" method="post" enctype="text/plain">
+            <form method="POST" Data-netlify="true" data-netlify-recaptcha="true">
             <div class="row">
               <div class="contact-form padd-15">
                 <div class="row">
@@ -533,6 +533,10 @@
                     <div class="form-group">
                       Message: <br>
                       <textarea name="Message" class="form-control" id="" placeholder="Message" rows="10"></textarea>
+
+                      <div class="padd-15">
+                        <div data-netlify-recaptcha="true"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
