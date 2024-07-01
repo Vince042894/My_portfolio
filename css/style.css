@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@500&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -20,7 +20,7 @@ body {
   padding: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Poppins" sans-serif;
+  font-family: 'Poppins' sans-serif;
 }
 * {
   margin: 0;
@@ -79,7 +79,7 @@ ul {
   position: relative;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   height: 4px;
   width: 50px;
   background-color: var(--skin-color);
@@ -88,7 +88,7 @@ ul {
   left: 0;
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   height: 4px;
   width: 25px;
   background-color: var(--skin-color);
@@ -156,12 +156,12 @@ ul {
 }
 
 .aside .logo a span {
-  font-family: "Clicker Script", cursive;
+  font-family: 'Clicker Script', cursive;
   font-size: 40px;
 }
 
 .aside .logo a::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
@@ -172,7 +172,7 @@ ul {
 }
 
 .aside .logo a::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
@@ -206,7 +206,7 @@ ul {
 }
 
 .aside .nav-toggler span::before {
-  content: "";
+  content: '';
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -216,7 +216,7 @@ ul {
 }
 
 .aside .nav-toggler span::after {
-  content: "";
+  content: '';
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -272,7 +272,7 @@ h3.hello {
   margin: 15px 0;
 }
 h3.hello span {
-  font-family: "Clicker Script", cursive;
+  font-family: 'Clicker Script', cursive;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
@@ -296,7 +296,7 @@ h3.my-profession {
   position: relative;
 }
 .home-img::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 80px;
   width: 80px;
@@ -306,7 +306,7 @@ h3.my-profession {
   bottom: -20px;
 }
 .home-img::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 80px;
   width: 80px;
@@ -430,7 +430,7 @@ h3.my-profession {
   padding-bottom: 0;
 }
 .about .about-content .timeline .timeline-item::before {
-  content: "";
+  content: '';
   width: 1px;
   position: absolute;
   height: 100%;
@@ -653,4 +653,10 @@ h3.my-profession {
   height: 50px;
   padding: 0 50px;
   margin-bottom: 10px;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next,
+.lb-number {
+  display: none !important;
 }
