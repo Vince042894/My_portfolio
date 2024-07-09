@@ -491,7 +491,8 @@ h3.my-profession {
 .service .services-item .services-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.service .services-item .services-item-inner .icon {
+.service .services-item .services-item-inner .icon,
+.service .services-item .services-item-inner .icon .fa-solid {
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -500,7 +501,8 @@ h3.my-profession {
   text-align: center;
   transition: all 0.3s ease;
 }
-.service .services-item .services-item-inner .icon .fa-brands {
+.service .services-item .services-item-inner .icon .fa-brands,
+.service .services-item .services-item-inner .icon .fa-solid {
   font-size: 40px;
   line-height: 60px;
   color: var(--skin-color);
@@ -509,7 +511,8 @@ h3.my-profession {
 .service .services-item .services-item-inner:hover .icon {
   background: var(--skin-color);
 }
-.service .services-item .services-item-inner:hover .icon .fa-brands {
+.service .services-item .services-item-inner:hover .icon .fa-brands,
+.service .services-item .services-item-inner:hover .icon .fa-solid {
   font-size: 25px;
   color: #ffffff;
 }
